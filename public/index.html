@@ -34,9 +34,7 @@
       document.getElementById("age").innerHTML = yearsSince("May 23, 1997");
 
       function yearsSince(date) {
-        var diff = (new Date().getTime() - new Date(date).getTime()) / 1000;
-        diff /= 60 * 60 * 24;
-        return Math.round(diff / 365.25);
+        return Math.floor((new Date() - new Date(date).getTime()) / 3.15576e+10);
       }
     </script>
   </body>
