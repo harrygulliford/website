@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="app.css" />
-    <title>Harry Gulliford — Developer</title>
+    <title>Harry Gulliford</title>
   </head>
   <body class="bg-gray-200 text-gray-600">
     <div class="h-screen flex items-center justify-center flex-col">
@@ -14,9 +14,8 @@
         Harry Gulliford
       </h1>
       <p class="text-lg text-center leading-relaxed">
-        I'm a <span id="age"></span> year old software developer living in New
-        South Wales, Australia.<br />I have a passion for full stack
-        development.
+        Hi there, I'm Harry — a software developer from New South Wales, Australia.<br>
+        I have a passion for full-stack web application development.
       </p>
       <div class="flex items-center justify-between mt-8 w-56">
         <a href="https://www.twitter.com/harrygulliford" target="_blank" class="p-2 hover:text-blue-500">
@@ -30,12 +29,5 @@
         </a>
       </div>
     </div>
-    <script>
-      document.getElementById("age").innerHTML = yearsSince("May 23, 1997");
-
-      function yearsSince(date) {
-        return Math.floor((new Date() - new Date(date).getTime()) / 3.15576e+10);
-      }
-    </script>
   </body>
 </html>
