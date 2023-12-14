@@ -11,7 +11,7 @@
     "concurrently": "^8.2.0",
     "cssnano": "^4.1.11",
     "live-server": "^1.2.2",
-    "postcss": "^7.0.39",
+    "postcss": "^8.4.31",
     "postcss-cli": "^7.1.2"
   }
 }
